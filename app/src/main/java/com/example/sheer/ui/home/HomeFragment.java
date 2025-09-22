@@ -4,34 +4,36 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.GridView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.example.sheer.databinding.FragmentHomeBinding;
+import com.example.sheer.R;
 
 public class HomeFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private GridView gridView;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+    // Coloque 4 itens (todos usando bandeira)
+    private int[] imagens = {
+            R.drawable.bandeira,
+            R.drawable.bandeira,
+            R.drawable.bandeira,
+            R.drawable.bandeira
+    };
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
-    }
-
+    @Nullable
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        View root = inflater.inflate(R.layout.fragment_home, container, false);
+
+        gridView = root.findViewById(R.id.meuGrid);
+        HomeGridAdapter adapter = new HomeGridAdapter(getContext(), imagens);
+        gridView.setAdapter(adapter);
+
+        return root;
     }
 }
