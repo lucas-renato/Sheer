@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sheer</string>
+    <string name="title_home">Sheer</string>
+    <string name="title_dashboard">Sheer</string>
+    <string name="title_notifications">Sheer</string>
+
+    <string name="texto_inicial">Escolha sua preferência:</string>
+
+    <string name="texto_selecionado">Você selecionou "%1$s"</string>
+
+    <string-array name="opcoes_preferencias">
+        <item>Amigos</item>
+        <item>Relacionamento</item>
+        <item>Networking</item>
+    </string-array>
+</resources>
