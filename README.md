@@ -21,12 +21,11 @@ Inspirado na fluidez e transparência do nome, o app oferece uma experiência **
 ## 🛠️ Tecnologias Utilizadas
 - [Java] para o desenvolvimento Android  
 - [Firebase] para autenticação e banco de dados  
-- [Jetpack Compose / XML] para UI (dependendo da sua escolha)  
-- [Outras ferramentas/tecnologias que você usar]  
+- [ XML] para UI 
 
 ---
 
 ## 📦 Como Rodar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sheer.git
+   git clone https://github.com/lucas-renato/sheer.git
