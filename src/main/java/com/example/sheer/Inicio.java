@@ -10,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.sheer.ui.CadastroActivity;
+
 public class Inicio extends AppCompatActivity {
 
     @Override
@@ -25,9 +27,10 @@ public class Inicio extends AppCompatActivity {
         });
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(Inicio.this, MainActivity.class);
+            Intent intent = new Intent(Inicio.this, CadastroActivity.class);
             startActivity(intent);
             finish();
-        }, 5000);
+        }, 3000);
+
     }
 }

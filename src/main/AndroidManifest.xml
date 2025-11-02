@@ -25,7 +25,11 @@
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name" />
-    </application>
 
+        <activity
+            android:name=".ui.CadastroActivity"
+            android:exported="false"
+            android:label="Cadastro" />
+    </application>
 
 </manifest>
