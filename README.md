@@ -6,7 +6,6 @@ Inspirado na fluidez e transparência do nome, o app oferece uma experiência **
 - Encontrar conexões reais ✨  
 - Fazer novas amizades 🤝  
 - Ou até conhecer o amor da sua vida ❤️  
-
 ---
 
 ## 🚀 Funcionalidades
