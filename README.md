@@ -7,7 +7,6 @@ Inspirado na fluidez e transparência do nome, o app oferece uma experiência **
 - Fazer novas amizades 🤝  
 - Ou até conhecer o amor da sua vida ❤️  
 ---
-
 ## 🚀 Funcionalidades
 - Cadastro simples e seguro  
 - Perfis autênticos e verificados  
