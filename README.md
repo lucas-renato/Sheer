@@ -13,14 +13,12 @@ Inspirado na fluidez e transparência do nome, o app oferece uma experiência **
 - Sistema de matches inteligente  
 - Ambiente inclusivo e acolhedor  
 - Design leve e intuitivo  
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - [Java] para o desenvolvimento Android  
 - [Firebase] para autenticação e banco de dados  
 - [ XML] para UI 
-
 ---
 
 ## 📦 Como Rodar o Projeto
